@@ -21,3 +21,16 @@ Write a method that takes an array of integers and returns the **number that app
 ## 📸 Whiteboard Image with Code
 
 ![Most Frequent Number Whiteboard](./whiteboard-challenges/28f9d8d2-13a8-4e08-813a-e51950eab7ae.jfif)
+
+---
+# 🔢 Challenge: Minimum Value
+
+## 📝 Description
+Write a method that takes an array of integers and returns the **Minimum Value In The Array**.
+
+
+---
+
+## 📸 Whiteboard Image with Code
+
+![Minimum Value In The Array](./whiteboard-challenges/Screenshot%202025-07-30%20035220.png)
