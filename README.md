@@ -34,3 +34,18 @@ Write a method that takes an array of integers and returns the **Minimum Value I
 ## 📸 Whiteboard Image with Code
 
 ![Minimum Value In The Array](./whiteboard-challenges/Screenshot%202025-07-30%20035220.png)
+
+
+---
+
+
+# 🧩 Challenge: Reverse Character
+
+## 📝 Description
+Write a function called `ReverseCharacters` that takes a single string as input. Without using any built-in methods, The function should return the string with all characters reversed. The twist: **you are not allowed to use any built-in methods** such as `reverse()`.
+
+---
+
+## 📸 Whiteboard Image with Code :
+
+![Reverse Character Whiteboard](./whiteboard-challenges/ReverseCharacter.png)
