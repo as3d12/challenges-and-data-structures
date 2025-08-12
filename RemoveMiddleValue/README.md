@@ -7,4 +7,4 @@ Create a function called `ArrayReversal` that takes an array as an input and ret
 
 ## 📸 Whiteboard Image with Code
 
-![Array Reversal Whiteboard](./whiteboard-challenges/25dd94e3-06a9-4a49-ba2e-587be4071ae1.jfif)
+![Array Reversal Whiteboard](../whiteboard-challenges/25dd94e3-06a9-4a49-ba2e-587be4071ae1.jfif)
