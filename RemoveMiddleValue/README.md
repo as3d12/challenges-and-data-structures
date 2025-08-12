@@ -1,10 +1,27 @@
-# 🧩 Challenge: Array Reversal
+# 🧩 Challenge: Remove Middle Value
 
 ## 📝 Description
-Create a function called `ArrayReversal` that takes an array as an input and returns a **new array with the elements in reverse order**. The twist: **you are not allowed to use any built-in methods** such as `reverse()`.
+
+Write a function called **RemoveMiddleValue** that takes in an array as its parameter. Without utilizing any of the built-in methods available in the language, the function should remove the value at the middle index of the array. The function should then return the modified array.
 
 ---
 
-## 📸 Whiteboard Image with Code
+## 📸 Input Image
 
-![Array Reversal Whiteboard](../whiteboard-challenges/25dd94e3-06a9-4a49-ba2e-587be4071ae1.jfif)
+![RemoveMiddleValue](../whiteboard-challenges/inputRemoveMiddleValue.png)
+
+---
+
+## 📸 output Image if the length of array is odd
+
+`1,2,3,4,5`
+
+![RemoveMiddleValue](../whiteboard-challenges/outputRemoveMiddleValue1.png)
+
+---
+
+## 📸 output Image if the length of array is even
+
+`1,2,3,4,5,6`
+
+![RemoveMiddleValue](../whiteboard-challenges/outputRemoveMiddleValue2.png)
