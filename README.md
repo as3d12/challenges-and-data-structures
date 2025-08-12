@@ -49,3 +49,19 @@ Write a function called `ReverseCharacters` that takes a single string as input.
 ## 📸 Whiteboard Image with Code :
 
 ![Reverse Character Whiteboard](./whiteboard-challenges/ReverseCharacter.png)
+
+---
+
+
+# 🧩 Challenge: Remove Middle Value
+
+## 📝 Description
+
+Write a function called **RemoveMiddleValue** that takes in an array as its parameter. Without utilizing any of the built-in methods available in the language, the function should remove the value at the middle index of the array. The function should then return the modified array.
+
+
+---
+
+## 📸 Whiteboard Image with Code :
+
+![Remove Middle Value](./whiteboard-challenges/RemoveMiddleValue.png)
