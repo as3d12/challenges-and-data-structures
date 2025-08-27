@@ -212,19 +212,19 @@ class LinkedList {
 
 ## Visual Representation
 
-![alt text]({40C3B9A7-E3DB-4389-A61E-13E08E000463}.png)
+![alt text](./docs/{40C3B9A7-E3DB-4389-A61E-13E08E000463}.png)
 
 ---
 ## Inputs and Expected outputs :
 
 ## Inputs :
 
-![alt text]({E8081691-811D-4501-BE6F-AF70876CA146}.png)
+![alt text](./docs/{E8081691-811D-4501-BE6F-AF70876CA146}.png)
 
 
 ## outputs :
 
-![alt text]({E6FC1487-6627-42AB-BCE5-A2DA9DF5C9BC}.png)
+![alt text](./docs/{E6FC1487-6627-42AB-BCE5-A2DA9DF5C9BC}.png)
 
 --- 
 
@@ -232,10 +232,10 @@ class LinkedList {
 
 ## Inputs :
 
-![alt text]({D62203FF-7C35-4076-B51D-A9448B5BFC6E}.png)
+![alt text](./docs/{D62203FF-7C35-4076-B51D-A9448B5BFC6E}.png)
 
 ## outputs :
 
-![alt text]({3E8350DA-1308-4C7A-84A0-FB3813A19554}.png)
+![alt text](./docs/{3E8350DA-1308-4C7A-84A0-FB3813A19554}.png)
 
 

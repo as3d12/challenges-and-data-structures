@@ -1,4 +1,4 @@
-const LinkedList = require("./linkedList");
+const LinkedList = require("../../linkedList");
 
 test('LinkedList add method', () => {
     const list = new LinkedList();
