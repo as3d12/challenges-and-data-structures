@@ -36,7 +36,7 @@ class LinkedList {
                     this.length--;
                     return;
                 }
-                
+
                 else {
                     console.log('There is no node with value ' + value);
                     return;
@@ -89,6 +89,23 @@ class LinkedList {
             current = current.next;
         }
         console.log("head --> " + values.join(" --> ") + " --> null");
+    }
+
+    Reverse() {
+        if (this.head === null) {
+            console.log('List is empty');
+            return;
+        }
+        let prev = null;
+        let current = this.head;
+        let next = null;
+        while (current !== null) {
+            next = current.next;
+            current.next = prev;
+            prev = current;
+            current = next;
+        }
+        this.head = prev;
     }
 }
 
