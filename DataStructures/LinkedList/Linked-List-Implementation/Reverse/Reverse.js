@@ -9,4 +9,5 @@ list.add(4);
 list.printList();
 list.Reverse();
 list.printList();
-
+list.add(10);
+list.printList();
