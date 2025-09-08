@@ -107,6 +107,29 @@ class LinkedList {
         }
         this.head = prev;
     }
+
+     mergeStoredLists(list1 = [], list2 = []) {
+    
+     let values = [];
+     let current1 = list1.head;
+     let current2 = list2.head;
+     while (current1 !== null) {
+         values.push(current1.value);
+         current1 = current1.next;
+     }
+     while (current2 !== null) {
+         values.push(current2.value);
+         current2 = current2.next;
+     }
+
+     values.sort((a, b) => a - b);
+
+     let mergedList = new LinkedList();
+     for (let value of values) {
+         mergedList.add(value);
+     }
+     return mergedList;
+ }
 }
 
 module.exports = LinkedList;
