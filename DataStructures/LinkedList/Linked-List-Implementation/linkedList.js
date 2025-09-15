@@ -130,6 +130,53 @@ class LinkedList {
      }
      return mergedList;
  }
+
+ rotateLeft(k) {
+        if (this.head === null || k === 0 || this.length <= 1) return;
+
+        
+        k = k % this.length;
+
+        
+        if (k < 0) {
+            k = Math.abs(k) % this.length;
+           
+            let stepsToNewHead = this.length - k;
+            if (stepsToNewHead === this.length || stepsToNewHead === 0) return;
+            let current = this.head;
+            for (let i = 1; i < stepsToNewHead; i++) {
+                current = current.next;
+            }
+            let newHead = current.next;
+            current.next = null;
+            let tail = newHead;
+            while (tail.next !== null) {
+                tail = tail.next;
+            }
+            tail.next = this.head;
+            this.head = newHead;
+            return;
+        }
+
+       
+        if (k === 0) return;
+
+       
+        let current = this.head;
+        for (let i = 1; i < k; i++) {
+            current = current.next;
+        }
+        let newHead = current.next;
+        current.next = null;
+        let tail = newHead;
+        while (tail && tail.next !== null) {
+            tail = tail.next;
+        }
+        if (tail) {
+            tail.next = this.head;
+            this.head = newHead;
+        }
+    }
 }
 
 module.exports = LinkedList;
