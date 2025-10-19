@@ -1,14 +1,16 @@
-const BinarySearchTree = require("./BinarySearchTree");
+const BinaryTree = require("./BinaryTree");
+const TNode = require("./Tnode");
+const FindSecondMax = require("./SecondMaxValue/FindSecondMax");
 
-const bst = new BinarySearchTree();
+const Btree = new BinaryTree();
 
-bst.add(10);
-bst.add(5);
+Btree.root = new TNode(10);
+Btree.root.left = new TNode(5);
+Btree.root.right = new TNode(20);
+Btree.root.left.left = new TNode(3);
+Btree.root.left.right = new TNode(7);
+Btree.root.right.left = new TNode(15);
+Btree.root.right.right = new TNode(25);
 
-bst.add(15);
-bst.add(7);
-
-console.log(bst.contains(7)); 
-console.log(bst.contains(20));
-bst.remove(5);
-console.log(bst.contains(5));
+let secondMax = FindSecondMax(Btree);
+console.log("Second Maximum Value in the Binary Tree is: ", secondMax);
